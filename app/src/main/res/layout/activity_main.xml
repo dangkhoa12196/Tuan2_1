@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/editnuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:hint="Number a" />
+    <EditText
+
+        android:id="@+id/editnumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:hint="Number b" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#0f0e0f"
+        android:background="#fcfc03"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/bttong"
+        android:onClick="bt_tong"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#03dffc"
+        android:text="Tong"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/bthieu"
+        android:onClick="bt_hieu"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#03dffc"
+        android:text="Hieu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/bttich"
+        android:onClick="bt_tich"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="#03dffc"
+        android:gravity="center"
+        android:text="Tich"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btthuong"
+        android:onClick="bt_thuong"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#03dffc"
+        android:text="Thuong"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/btuocchung"
+        android:onClick="bt_uocchung"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#03dffc"
+        android:text="Uoc chung lon nhat"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/btthoat"
+        android:onClick="bt_thoat"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#03dffc"
+        android:textColor="#b30000"
+        android:text="Thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
